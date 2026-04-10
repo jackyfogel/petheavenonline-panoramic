@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #e8d5a8;
+  overflow: hidden;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#scene-container {
+  background: linear-gradient(135deg, #b8d4a8 0%, #7aab6e 50%, #c9b89a 100%);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
