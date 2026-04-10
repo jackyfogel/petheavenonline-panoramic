@@ -29,4 +29,15 @@ body {
   background-size: cover;
   background-position: center;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
+
+.marker {
+  position: absolute;
+  width: 24px;
+  height: 36px;
+  background-color: #8b7969;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
